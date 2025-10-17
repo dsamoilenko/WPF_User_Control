@@ -22,6 +22,7 @@ namespace WPF_User_Control
     {
         public MainWindow()
         {
+            // инициализация контролов
             InitializeComponent();
         }
 
@@ -33,6 +34,7 @@ namespace WPF_User_Control
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            // начальные значения для компонентов цвета
             colorChooser.Red = 200;
         }
 
