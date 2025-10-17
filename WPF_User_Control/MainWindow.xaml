@@ -53,7 +53,7 @@
                 <Grid Background="#FFE5E5E5">
                     <control:ColorChooser x:Name="colorChooser" Color="LightSkyBlue" Margin="10,10,10,188"/>
 
-                    <Button Content="Test" HorizontalAlignment="Left" Margin="10,283,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+                    <Button Content="ColorChooser test" HorizontalAlignment="Left" Margin="10,283,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
                     <ProgressBar Maximum="255" Minimum="0" Value="{Binding ElementName=colorChooser, Path=Red}" Height="23" Margin="10,243,10,0" VerticalAlignment="Top"/>
                 </Grid>
             </TabItem>

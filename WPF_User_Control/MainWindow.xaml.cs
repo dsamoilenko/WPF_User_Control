@@ -33,7 +33,7 @@ namespace WPF_User_Control
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            colorChooser.Red = 120;
+            colorChooser.Red = 200;
         }
 
         Random rand = new Random();
@@ -51,7 +51,7 @@ namespace WPF_User_Control
 
         private void barDiagram_OnBarMouseDown(object sender, int BarIndex)
         {
-            MessageBox.Show($"You just clicked on bar with index: {BarIndex}. Value = {barDiagram.Values[BarIndex]}");
+            MessageBox.Show($"You clicked on bar with index: {BarIndex}. Current value = {barDiagram.Values[BarIndex]}");
         }
     }
 }
