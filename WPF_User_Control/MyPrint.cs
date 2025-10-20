@@ -28,9 +28,14 @@ namespace WPF_User_Control
             return false;
         }
 
-        void IPrintable.Print(Image image)
+        void Print(Image image)
         {
             
+        }
+
+        void IPrintable.TryToPrint(Image image)
+        {
+            throw new NotImplementedException();
         }
     }
 }

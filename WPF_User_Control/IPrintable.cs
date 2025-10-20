@@ -15,6 +15,6 @@ namespace WPF_User_Control
         void Print(BitmapImage image, BitmapDecoder decoder);
         bool TryToPrint(string text);
         void Print(List<string> strings);
-        void Print(Image image);
+        void TryToPrint(Image image);
     }
 }
