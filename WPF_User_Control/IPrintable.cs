@@ -9,7 +9,8 @@ namespace WPF_User_Control
     public interface IPrintable
     {
         void Print(string text);
-        void Print(string text, string format);
+        void Print(string format, string text);
         void Print();
+        bool TryToPrint();
     }
 }

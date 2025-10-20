@@ -66,6 +66,7 @@
     <Compile Include="MusicPlayer.xaml.cs">
       <DependentUpon>MusicPlayer.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MyPrint.cs" />
     <Compile Include="TestControl.xaml.cs">
       <DependentUpon>TestControl.xaml</DependentUpon>
     </Compile>
