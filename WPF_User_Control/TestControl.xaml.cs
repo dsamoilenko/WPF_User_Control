@@ -14,9 +14,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-// https://professorweb.ru/my/WPF/base_WPF/level4/4_1.php
-// https://metanit.com/sharp/wpf/13.php
-
 namespace WPF_User_Control
 {
     /// <summary>
@@ -68,6 +65,7 @@ namespace WPF_User_Control
 
         private static void OnWeightChanged(DependencyObject sender, DependencyPropertyChangedEventArgs e)
         {
+            // печать в консоль для отладки
             TestControl testControl = (TestControl)sender;
             Console.WriteLine($"Weight = {testControl.Weight}");
         }

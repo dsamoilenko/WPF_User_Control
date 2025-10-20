@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 
 namespace WPF_User_Control
 {
@@ -18,12 +19,12 @@ namespace WPF_User_Control
             throw new NotImplementedException();
         }
 
-        public void Print()
+        void IPrintable.Print(List<string> strings)
         {
             throw new NotImplementedException();
         }
 
-        public bool TryToPrint()
+        void IPrintable.Print(Image image)
         {
             throw new NotImplementedException();
         }
