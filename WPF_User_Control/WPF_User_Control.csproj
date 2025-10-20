@@ -62,6 +62,7 @@
     <Compile Include="BarDiagram.xaml.cs">
       <DependentUpon>BarDiagram.xaml</DependentUpon>
     </Compile>
+    <Compile Include="IPrintable.cs" />
     <Compile Include="MusicPlayer.xaml.cs">
       <DependentUpon>MusicPlayer.xaml</DependentUpon>
     </Compile>
